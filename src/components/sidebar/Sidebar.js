@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png';
 const Sidebar = ( {sidebarOpen, closeSidebar }) => {
     return(
         <div className={sidebarOpen ? "sidebar-responsive" : " "} id='sidebar'>
-            <div className="sidebar__tutle">
+            <div className="sidebar__title">
                 <div className="sidebar__img">
                     <img src={logo} alt='Logo do site'/>
                     <h1>Couter Dashboards</h1>
@@ -53,9 +53,29 @@ const Sidebar = ( {sidebarOpen, closeSidebar }) => {
                     <i className="fa fa-male"></i>
                     <a href="https://github.com/sergiocouter">Administradores</a>
                 </div>
+                <div className="sidebar__link">
+                    <i className="fa fa-user-circle"></i>
+                    <a href="https://github.com/sergiocouter">Usuários</a>
+                </div>
+                <div className="sidebar__link">
+                    <i className="fa fa-money"></i>
+                    <a href="https://github.com/sergiocouter">Pagamentos</a>
+                </div>
+                <div className="sidebar__link">
+                    <i className="fa fa-file-text"></i>
+                    <a href="https://github.com/sergiocouter">A plataforma</a>
+                </div>
+                <div className="sidebar__link">
+                    <i className="fa fa-file-text"></i>
+                    <a href="https://github.com/sergiocouter">Política e privacidade</a>
+                </div>
+                <div className="sidebar__logout">
+                    <i className="fa fa-power-off"></i>
+                    <a href="https://github.com/sergiocouter">Logout</a>
+                </div>
             </div>
         </div>
     )
 }
 
-
+export default Sidebar;
