@@ -1,4 +1,5 @@
 import hello from '../../assets/hello.png';
+import Charts from '../charts/Charts';
 // import Chart from '../charts/Chart';
 import './Main.css';
 
@@ -54,6 +55,46 @@ const Main = () => {
                             <div>
                                 <h1>Daily Report</h1>
                                 <p>Uberlândia, Minas Gerais, BR</p>
+                            </div>
+                            <i className='fa fa-usd'></i>
+                        </div>
+                        <Charts />
+                    </div>
+
+                    <div className='charts__right'>
+                        <div className='charts__right__title'>
+                            <div>
+                                <h1>Daily Report</h1>
+                                <p>Uberlândia, Minas Gerais, BR</p>
+                            </div>
+                            <i className='fa fa-area-chart'></i>
+                        </div>
+
+                        <div className='charts__right__cards'>
+                            <div className='card1'>
+                                <h1>Lucro</h1>
+                                <p>R$ 3.500</p>
+                            </div>
+                        </div>
+
+                        <div className='charts__right__cards'>
+                            <div className='card2'>
+                                <h1>Pagamentos</h1>
+                                <p>R$ 350,00</p>
+                            </div>
+                        </div>
+
+                        <div className='charts__right__cards'>
+                            <div className='card3'>
+                                <h1>Custo de hospedagem</h1>
+                                <p>R$ 150,00</p>
+                            </div>
+                        </div>
+
+                        <div className='charts__right__cards'>
+                            <div className='card4'>
+                                <h1>Banco de dados</h1>
+                                <p>R$ 420,00</p>
                             </div>
                         </div>
                     </div>
