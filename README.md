@@ -4,7 +4,7 @@
 
 
 ## Tecnologias
-> React js , Bootstrap, Ract-vis
+> React js , Bootstrap, Ract-vis, Media querys
 
 ## Objetivo
 > Criar interfaces mais complexas com a biblioteca React
